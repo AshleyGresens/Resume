@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; 
+            line-height: 1.3; 
+            margin: 0.4in; 
+            font-size: 10pt; 
+            color: #333;
+        }
+        .header { 
+            text-align: center; 
+            border-bottom: 2px solid #0066cc; 
+            padding-bottom: 6px; 
+            margin-bottom: 12px; 
+        }
+        .name { 
+            font-size: 20pt; 
+            font-weight: 700; 
+            color: #0066cc; 
+            margin-bottom: 4px; 
+        }
+        .contact { 
+            font-size: 10pt; 
+            color: #666; 
+        }
+        .section-title { 
+            font-size: 12pt; 
+            font-weight: 700; 
+            color: #0066cc; 
+            border-bottom: 1px solid #ccc; 
+            margin: 10px 0 6px 0; 
+            padding-bottom: 1px; 
+        }
+        .job-header { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: baseline; 
+            margin: 6px 0 3px 0; 
+        }
+        .job-title { 
+            font-weight: 700; 
+            font-size: 11pt; 
+        }
+        .company { 
+            font-weight: 600; 
+            color: #0066cc; 
+        }
+        .date { 
+            font-style: italic; 
+            color: #666; 
+            font-size: 10pt; 
+        }
+        .edu-header { 
+            font-weight: 700; 
+            margin: 4px 0 2px 0; 
+        }
+        .school { 
+            color: #0066cc; 
+            font-weight: 600; 
+        }
+        ul { 
+            margin: 2px 0; 
+            padding-left: 16px; 
+        }
+        li { 
+            margin-bottom: 2px; 
+        }
+        .skills-grid { 
+            display: grid; 
+            grid-template-columns: 1fr 1fr; 
+            gap: 6px; 
+            margin-top: 6px; 
+        }
+        .skill-category { 
+            font-weight: 600; 
+            color: #0066cc; 
+        }
+        .summary { 
+            text-align: justify; 
+            margin-bottom: 12px; 
+            font-size: 10pt; 
+        }
+        @media print {
+            body { margin: 0.3in; font-size: 9.5pt; }
+            .section-title { page-break-after: avoid; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="name">Ashley Gresens</div>
+        <div class="contact">ashley.m.gresens@boeing.com • (843) 291-4632 • linkedin.com/in/ashley-gresens • github.com/AshleyGresens/Resume</div>
+    </div>
+
+    <div class="section-title">SUMMARY</div>
+    <div class="summary">
+        Systems and process-oriented ET&T Procurement Agent with supply chain expertise and proven experience in requirements gathering, stakeholder collaboration, and optimizing Boeing's core supply chain applications. Demonstrated ability to bridge technical and business requirements through cross-functional collaboration, systems analysis, and user-centered solutions. Programming experience in multiple languages (C, Java, JavaScript, VBA) with practical application in automation and database development. Currently pursuing Master's in Software Engineering, seeking to leverage supply chain expertise and requirements analysis skills to enhance tool functionality and drive user adoption as an Associate Systems and Tools Engineer.
+    </div>
+
+    <div class="section-title">EXPERIENCE</div>
+    
+    <div class="job-header">
+        <div><span class="job-title">Procurement Agent II</span> • <span class="company">Boeing, Engineering Test & Technology</span></div>
+        <div class="date">July 2024 - Present</div>
+    </div>
+    <ul>
+        <li>Gained hands-on experience with core ET&T supply chain systems (SAP S/4HANA, EPARTS CORE/NG, EPIC), facilitating gap analyses and delivering targeted recommendations to enhance tool efficiency and alignment with business goals.</li>
+        <li>Partnered with cross-functional teams during Boeing's first SAP S/4HANA UCA implementation, documenting user stories and internal requirements to translate stakeholder feedback into actionable system improvements, contributing to over $250,000 in savings through timely UCA creation.</li>
+        <li>Automated supplier follow-up and SDF compliance workflows using enhanced VBA macros, reducing manual task volume by 80% and accelerating response cycles.</li>
+        <li>Spearheaded ongoing development of the internal Peer Review Checklist webpage; released initial rollout and test cases to guide Agile development, led UAT sessions, and documented feature feedback to support release readiness and future iterations, projecting 87% time reduction per review cycle.</li>
+        <li>Synthesized internal documentation and technical system knowledge to produce user-friendly guides and facilitate training on EPIC bid templates, effectively bridging system functionality with business rules to strengthen procurement compliance by more than 90%.</li>
+        <li>Utilized SM systems to coordinate long-lead item readiness and align tool rollouts with program schedules, contributing to 100% SSOC on-time delivery performance.</li>
+        <li>Promoted to Procurement Agent II in June 2025 within 11 months, recognized for embodying Boeing values of Ownership (pursuing excellence in automation solutions), Innovation (shaping tool functionality), and Trust (delivering on $4.2 million+ commitments).</li>
+    </ul>
+
+    <div class="job-header">
+        <div><span class="job-title">Manager</span> • <span class="company">Charleston Sports Pub</span></div>
+        <div class="date">April 2023 - July 2024</div>
+    </div>
+    <ul>
+        <li>Led POS system transition across 5 locations, managing data migration, assessing requirements for new features (e.g., rewards program integration with Toast), and overseeing iterative rollouts following gathering user requirements, achieving 100% staff adoption with zero revenue-impacting downtime.</li>
+        <li>Delivered technical training and support, ensuring team proficiency with new tools while maintaining high-volume service and strong user experience.</li>
+        <li>Improved inventory management using data analysis to identify cost-saving opportunities, achieving a 4% month-over-month reduction in liquor costs without sacrificing operational output.</li>
+        <li>Streamlined scheduling processes by adopting digital tools, reducing scheduling time by 50% and eliminating 90% of coverage gaps during peak business hours.</li>
+    </ul>
+
+    <div class="job-header">
+        <div><span class="job-title">Technical Project Support – Sales Operations</span> • <span class="company">Conga</span></div>
+        <div class="date">Sept 2022 - March 2023</div>
+    </div>
+    <ul>
+        <li>Collaborated with business operations teams to identify and resolve CRM data quality issues, using advanced Excel functions and pivot tables to analyze records and implement corrections that improved Salesforce performance and process accuracy.</li>
+        <li>Engaged prospective clients through tailored outreach, maintaining Customer Conversation rate of 4% across 150+ weekly contacts while promoting adoption of Conga's SaaS-based automation and CLM tools.</li>
+        <li>Applied predefined test cases to validate business process automations in Salesforce and Salesforce extensions, helping ensure system functionality and support reliable workflows.</li>
+    </ul>
+
+    <div class="section-title">EDUCATION</div>
+    
+    <div class="edu-header">Graduate Certificate in Computer Science Foundations • <span class="school">Drexel University</span> • 2025</div>
+    <ul>
+        <li>Bridge program with credits transferring to <strong>Master's in Software Engineering</strong> (Starting January 2026 - will enter as ~25% complete.) Master's in Software Engineering includes additional courses on Requirements Engineering and Management and Software Reliability.</li>
+        <li>Applied software design principles to build a mock supplier database system, simulating procurement workflows and demonstrating how software architecture and data modeling can solve real-world supply chain challenges; included basic input validation, modular design, and test-driven development.</li>
+        <li>Developed white box test cases and BASH automation scripts through systems programming coursework, applying structured testing methodologies to validate system functionality.</li>
+    </ul>
+
+    <div class="edu-header">Master's in Human Resource Management and Organizational Behavior • <span class="school">Lingnan University, Hong Kong</span> • 2016 • 3.9 GPA</div>
+    <ul>
+        <li>Attended the only liberal arts, AACSB-accredited university in Hong Kong on a full scholarship.</li>
+        <li>Developed cross-cultural communications skills and gained familiarity with stakeholder alignment strategies and organizational change management.</li>
+    </ul>
+
+    <div class="edu-header">Bachelor's in Political Science and International Business • <span class="school">College of Charleston</span> • 2015</div>
+    <ul><li>Developed strong analytical research, policy analysis, and stakeholder assessment skills. Experience in survey design and case study development.</li></ul>
+
+    <div class="section-title">SKILLS</div>
+    <div class="skills-grid">
+        <div><span class="skill-category">Requirements & Testing:</span> Documentation, Use Case Development, UAT Coordination, Test Case Development</div>
+        <div><span class="skill-category">Boeing Systems:</span> EPARTS CORE/NG, EPIC, SPVR, SDF, ATOM, SAP EDP</div>
+        <div><span class="skill-category">Programming:</span> C, Java (Spring), JavaScript, VBA, Bash</div>
+        <div><span class="skill-category">Tools & Platforms:</span> Microsoft 365, Visual Studio Code, Git</div>
+        <div><span class="skill-category">Project Management:</span> Cross-functional Collaboration, Stakeholder Engagement</div>
+        <div><span class="skill-category">Communication:</span> User Training, Technical Documentation</div>
+    </div>
+</body>
+</html>
